@@ -1,2 +1,70 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Awareness VR</title>
+  <meta name="Awareness VR" content="Guided meditation applied to every-day situations">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Banner section -->
+  <div class="banner">
+    <br>
+    <br>
+    <h1>awareness vr</h1>
+    <br>
+    <br>
+    <p>Applying meditation to every-day situations</p>
+    <br>
+    <!-- <img src="/app/assets/images/meditate 2.png" class="png" alt=""> -->
+    <%= image_tag "meditate2.png" %>
+    <br>
+   <br>
+   <br>
+
+
+  <a href="mailto:inanna.craigmorse@gmail.com" class="btn">Contact</a>
+  </div>
+
+  <div class="container">
+    <br>
+    <h2>What the app does:</h2>
+    <!-- Cards container -->
+    <div class="cards">
+
+      <!-- Shanghai card -->
+      <div class="card">
+        <%= image_tag "sunrise 2.png" %>
+        <br>
+        <p>Creates a focused, immersive environment to provide enhanced learning</p>
+      </div>
+
+      <!-- London card -->
+      <div class="card">
+        <%= image_tag "cityscape 2.png" %>
+        <br>
+        <p>Pairs guided meditations with real-life simulations to apply the practice to every-day life </p>
+      </div>
+
+      <!-- Paris card -->
+      <div class="card">
+        <%= image_tag "Group 6.png" %>
+        <br>
+        <p>Creates groups of users to discuss and learn from each other </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer section -->
+  <div class="footer">
+    <div class="container">
+      <p>✌️      👌      🤟</p>
+    </div>
+  </div>
+</body>
+</html>
